@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CS81: Final Project</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="js.js"></script>
+</head>
+<body>
+    <h1>Roll The Dice</h1>
+
+    <table>
+        <tr>
+            <th colspan="2">Player</th>
+            <th colspan="2">Computer</th>
+        </tr>
+        <tr>
+            <td><img class="dice" id="dice1" src="img/dice1.jpg"></td>
+            <td><img class="dice" id="dice2" src="img/dice1.jpg"></td>
+            <!--<td></td>-->
+            <td><img class="dice" id="dice3" src="img/dice1.jpg"></td>
+            <td><img class="dice" id="dice4" src="img/dice1.jpg"></td>
+        </tr>
+        <tr>
+            <td id="res1"></td>
+            <td id="res2"></td>
+            <!--<td></td>-->
+            <td id="res3"></td>
+            <td id="res4"></td>
+        </tr>
+        <tr>
+            <td id='plr' colspan="2">Player</td>
+            <td id='pc' colspan="2">Computer</td>
+        </tr>
+        <tr>
+            <td id='results' colspan="4">Player</td>
+        </tr>
+    </table>
+
+    <button onclick="dice()">Click to roll</button>
+
+    <p id="p"></p>
+
+    <div id="raz">
+    </div>
+</body>
+</html>

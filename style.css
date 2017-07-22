@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    /*padding-bottom: 20px;*/
+    padding: 20px 0 20px 0;
+}
+
+td {
+    width: 100px;
+}
+
+button {
+    width: 150px;
+    margin: auto;
+    cursor: pointer;
+}
+.dice {
+    width: 70px;
+    height: 70px;
+}
+
+/*//////*/
+
+ #raz div {
+     transition: 3s;
+     opacity: 0;
+ }
